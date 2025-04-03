@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "cloudndevops_pipeline_ec2" {
-  ami           = "ami-05f417c208be02d4d" # Update to latest AMI ID for your region
+  ami           = "ami-00a929b66ed6e0de6" # Update to latest AMI ID for your region
   instance_type = "t2.micro"
   tags = {
     Name = "GitHubActionsEC2"
